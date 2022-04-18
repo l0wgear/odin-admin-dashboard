@@ -132,7 +132,8 @@ header .greeting,
   margin-right: 1rem;
 }
 
-.greeting span {
+.greeting span,
+.trending h3 {
   align-self: end;
 }
 
@@ -251,4 +252,16 @@ h3 {
   display: grid;
   grid-template-columns: 1fr;
   gap: 1rem;
+}
+
+.trending p {
+  margin: 0.2rem 0;
+  text-transform: capitalize;
+  font-size: 0.9rem;
+}
+
+.trending h3 {
+  text-transform: none;
+  font-weight: 500;
+  font-size: 1rem;
 }
